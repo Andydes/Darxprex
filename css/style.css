@@ -2205,4 +2205,8 @@ hr {
   }
 }
 
+.img-70p{
+  height: auto;
+  max-width: 70%;
+}
 /*# sourceMappingURL=style.css.map */
