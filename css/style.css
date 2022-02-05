@@ -356,13 +356,13 @@ button:focus,
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #fa7d4a;
+  background: #003350 ;
   color: #fff;
   outline: none;
 }
 
 .btn-main-md:hover {
-  color: #fff;
+  color: #fa7d4a;
 }
 
 .btn-main-md:focus {
