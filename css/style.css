@@ -2214,4 +2214,8 @@ hr {
   height: auto;
   max-width: 80%;
 }
+
+html{
+scroll-behavior: smooth;
+}
 /*# sourceMappingURL=style.css.map */
