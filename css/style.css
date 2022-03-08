@@ -2220,25 +2220,10 @@ html{
 scroll-behavior: smooth;
 }
 
-body{
-  height: 1024px;
-}
-
 .fixed-icon{
   position: fixed;
   right: 0;
   top: 150px;
   border-radius: 5px 0px 1px 5px;
-}
-
-.relative{
-  position: relative;
-
-}
-.sticky-icon{
-  position: sticky;
-  top: 0;
-  height: 40px;
-  width: 40px;
-  margin-right: 1rem;  
+  z-index: 100;
 }
