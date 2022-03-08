@@ -2240,35 +2240,5 @@ body{
   top: 0;
   height: 40px;
   width: 40px;
-  margin-right: 1rem;    
-}
-.icon{
-  background-color: yellow;
-  height: 30px;
-  width: 30px;
-  background: #fff;
-  color: #000;
-  box-shadow: 1px 1px 11px 1px #a59a9a;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.absolute-mssg-box{
-  position: absolute;
-  background: #fff;
-  color: #000;
-  box-shadow: 1px 1px 11px 1px #a59a9a;
-  margin-right: 1rem;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 40px;
-  right: -60px;
- 
-}
-.show-abs-box:hover .absolute-mssg-box{
-  display: none;
-
+  margin-right: 1rem;  
 }
