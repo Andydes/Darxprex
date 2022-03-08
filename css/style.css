@@ -2220,41 +2220,55 @@ html{
 scroll-behavior: smooth;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  height: 1024px;
 }
 
-#btn-download{
-  display: none;
-}
-
-.stylebutton{
+.fixed-icon{
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-} 
+  right: 0;
+  top: 150px;
+  border-radius: 5px 0px 1px 5px;
+}
 
-.btn-download, icon-mas{
-  display: block;
-  text-decoration: none;
-  background: #003350;
-  color: #FAFAFA;
-  width: 100px;
-  height: 100px;
-  line-height: 55px;
-  text-align: center;
+.relative{
+  position: relative;
+
+}
+.sticky-icon{
+  position: sticky;
+  top: 0;
+  height: 40px;
+  width: 40px;
+  margin-right: 1rem;    
+}
+.icon{
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  color: #000;
+  box-shadow: 1px 1px 11px 1px #a59a9a;
   border-radius: 50%;
-  box-shadow: 0px, 1px, 10px, rgba(0, 0, 0, 0.4);
-  transition: all 500ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.btn-download:hover{
-  background: #FAFAFA;
-  color: #003350;
+.absolute-mssg-box{
+  position: absolute;
+  background: #fff;
+  color: #000;
+  box-shadow: 1px 1px 11px 1px #a59a9a;
+  margin-right: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40px;
+  right: -60px;
+ 
 }
+.show-abs-box:hover .absolute-mssg-box{
+  display: none;
 
-#btn-ti-download
-
-/*# sourceMappingURL=style.css.map */
+}
