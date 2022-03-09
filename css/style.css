@@ -321,7 +321,7 @@ button:focus,
 }
 
 .btn {
-  text-transform: uppercase;
+  text-transform: revert;
 }
 
 .btn-download {
@@ -2223,7 +2223,7 @@ scroll-behavior: smooth;
 .fixed-icon{
   position: fixed;
   right: 0;
-  top: 150px;
-  border-radius: 5px 0px 1px 5px;
+  top: 170px;
+  border-radius: 10px 0px 0px 10px;
   z-index: 100;
 }
