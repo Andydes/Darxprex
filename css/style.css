@@ -2222,7 +2222,7 @@ scroll-behavior: smooth;
 
 .fixed-icon{
   position: fixed;
-  right: 0;
+  left: 0;
   top: 170px;
   border-radius: 10px 0px 0px 10px;
   z-index: 100;
