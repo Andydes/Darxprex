@@ -682,7 +682,7 @@ button:focus,
 
 .scroll-top-to {
   position: fixed;
-  left: 20px;
+  right: 20px;
   bottom: 50px;
   width: 40px;
   height: 40px;
@@ -2220,11 +2220,42 @@ html{
 scroll-behavior: smooth;
 }
 
-.fixed-icon{
-  position: fixed;
-  left: 0;
-  top: 170px;
-  border-radius: 10px 0px 0px 10px;
-  z-index: 100;
-  text-shadow: #003350;
+.button{
+display: inline-flex;
+height: 50px;
+padding: 0;
+background-color: #fa7d4a;
+border: none;
+outline: none;
+border-radius: 0px 10px 10px 0px;
+overflow: hidden;
+font-family: 'Quicksand', sans-serif;
+font-size: 15px;
+font-weight: 500;
+cursor: pointer;
+z-index: 100;
+top: 150px;
+position: fixed;
+}
+
+.button:hover{
+  background: #fa7d4a;
+}
+
+.button:active{
+  background: #003350;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
 }
