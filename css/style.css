@@ -2221,6 +2221,7 @@ scroll-behavior: smooth;
 }
 
 .button{
+position: sticky;
 display: inline-flex;
 height: 50px;
 padding: 0;
@@ -2234,8 +2235,8 @@ font-size: 15px;
 font-weight: 500;
 cursor: pointer;
 z-index: 100;
-top: 150px;
-position: fixed;
+top: 120px;
+
 }
 
 .button:hover{
