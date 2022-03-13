@@ -2235,7 +2235,7 @@ font-size: 15px;
 font-weight: 500;
 cursor: pointer;
 z-index: 100;
-top: 120px;
+top: auto;
 
 }
 
